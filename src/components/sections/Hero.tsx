@@ -20,7 +20,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <Button href="#portfolio">View Portfolio</Button>
+            <Button href="#experience">View Experience</Button>
             <Button href="#contact" variant="secondary">
               Contact Me
             </Button>
