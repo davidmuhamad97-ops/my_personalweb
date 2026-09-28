@@ -1,4 +1,5 @@
 import { profile } from '../../data/profile'
+import { AnimatedAvatar } from '../common/AnimatedAvatar'
 import { Button } from '../common/Button'
 import { Container } from '../common/Container'
 
@@ -7,13 +8,7 @@ export function Hero() {
     <section className="py-16 sm:py-24">
       <Container>
         <div className="flex flex-col items-start gap-6">
-          <img
-            src={profile.avatar}
-            alt={`${profile.name} avatar`}
-            width={128}
-            height={128}
-            className="h-32 w-32 rounded-full object-cover"
-          />
+          <AnimatedAvatar name={profile.name} />
 
           <div>
             <h1 className="text-4xl font-bold text-slate-900 sm:text-5xl">
