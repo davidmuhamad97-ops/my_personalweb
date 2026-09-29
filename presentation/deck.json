@@ -120,14 +120,14 @@
       "title": "Hasil PageSpeed Insights",
       "background": "FFFFFF",
       "images": [
-        {"path": "/root/projects/my_personalweb/presentation/pagespeed-mobile.jpg", "left": 0.7, "top": 2.1, "width": 5.4, "height": 3.16}
+        {"path": "/root/projects/my_personalweb/presentation/pagespeed-mobile.jpg", "left": 0.7, "top": 2.1, "width": 5.4, "height": 3.16},
+        {"path": "/root/projects/my_personalweb/presentation/pagespeed-desktop.jpg", "left": 6.4, "top": 2.1, "width": 6.2, "height": 3.56}
       ],
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
         {"type": "rectangle", "left": 0.7, "top": 0.5, "width": 11.9, "height": 0.8, "fill": "6366F1", "text": "Hasil PageSpeed Insights", "text_color": "FFFFFF", "text_size": 22, "text_bold": true, "text_font": "Calibri"},
         {"type": "rounded_rectangle", "left": 0.7, "top": 1.55, "width": 5.4, "height": 0.5, "fill": "312E81", "text": "Mobile", "text_color": "FFFFFF", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
         {"type": "rounded_rectangle", "left": 6.4, "top": 1.55, "width": 6.2, "height": 0.5, "fill": "312E81", "text": "Desktop", "text_color": "FFFFFF", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
-        {"type": "rounded_rectangle", "left": 6.4, "top": 2.1, "width": 6.2, "height": 4.0, "fill": "EEF2FF", "text": "Screenshot skor Desktop\nsisipkan di sini", "text_color": "4338CA", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
         {"type": "rounded_rectangle", "left": 0.7, "top": 6.35, "width": 11.9, "height": 0.85, "fill": "F1F5F9", "text": "Optimasi: build Vite (minify + tree-shaking) · CSS Tailwind ter-purge · avatar & background CSS/SVG tanpa bitmap besar (CLS rendah) · SPA fallback + robots.txt", "text_color": "1E293B", "text_size": 12, "text_font": "Calibri"}
       ],
       "notes": "Skor akhir (LCP/INP/CLS) diisi setelah menjalankan PageSpeed Insights. Jangan isi angka perkiraan sebelum ada hasil asli."
