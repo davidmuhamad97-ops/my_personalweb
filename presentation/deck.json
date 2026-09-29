@@ -4,82 +4,103 @@
     {
       "layout": "title",
       "title": "Personal Website Portfolio",
-      "subtitle": "Code Challenge 2 — Opsi A\nJCFSVL\nMuhammad David\n2026"
+      "subtitle": "Code Challenge 2 — Opsi A\nJCFSVL\nMuhammad David\n2026",
+      "background": "0F172A",
+      "shapes": [
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rectangle", "left": 0.85, "top": 3.6, "width": 2.4, "height": 0.08, "fill": "8B5CF6"},
+        {"type": "oval", "left": 11.2, "top": -1.2, "width": 3.2, "height": 3.2, "fill": "4F46E5"},
+        {"type": "oval", "left": 10.6, "top": 5.2, "width": 2.6, "height": 2.6, "fill": "7C3AED"}
+      ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 1 — Hero & Animated Avatar",
       "bullets": [
-        "Avatar inisial (MD) berbingkai conic-gradient yang berputar otomatis (spin 4 detik).",
-        "Glow pulsing lembut di belakang avatar (efek bernapas, 3 detik).",
-        "Background SVG: pola dots + gradient mesh blob di 4 sudut.",
-        "Menampilkan nama, job title, lokasi, dan bio singkat dari data profil."
+        {"text": "Avatar inisial (MD) berbingkai conic-gradient yang berputar otomatis (spin 4 detik).", "color": "334155"},
+        {"text": "Glow pulsing lembut di belakang avatar (efek bernapas, 3 detik).", "color": "334155"},
+        {"text": "Background SVG: pola dots + gradient mesh blob di 4 sudut.", "color": "334155"},
+        {"text": "Menampilkan nama, job title, lokasi, dan bio singkat dari data profil.", "color": "334155"}
       ],
+      "background": "FFFFFF",
       "shapes": [
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
-        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
       ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 2 — Sticky Navbar & ScrollSpy",
       "bullets": [
-        "Navbar sticky dengan backdrop-blur agar tetap terlihat saat scroll.",
-        "Underline beranimasi muncul saat hover dan menetap pada menu aktif.",
-        "Hook useScrollSpy memakai IntersectionObserver untuk mendeteksi section yang sedang dilihat.",
-        "Smooth scrolling antar section (CSS scroll-behavior: smooth + scroll-margin-top)."
+        {"text": "Navbar sticky dengan backdrop-blur agar tetap terlihat saat scroll.", "color": "334155"},
+        {"text": "Underline beranimasi muncul saat hover dan menetap pada menu aktif.", "color": "334155"},
+        {"text": "Hook useScrollSpy memakai IntersectionObserver untuk mendeteksi section yang sedang dilihat.", "color": "334155"},
+        {"text": "Smooth scrolling antar section (CSS scroll-behavior: smooth + scroll-margin-top).", "color": "334155"}
       ],
+      "background": "FFFFFF",
       "shapes": [
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
-        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
       ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 3 — Gradient Cards & Hover Animation",
       "bullets": [
-        "Skills, Experience, dan Testimonials memakai kartu gradient berwarna (indigo, sky, teal, fuchsia).",
-        "Hover: kartu terangkat (translate-y) + shadow membesar.",
-        "Background kartu berubah warna saat hover (section Skills).",
-        "Light bloom + elemen dekoratif muncul saat hover di setiap kartu."
+        {"text": "Skills, Experience, dan Testimonials memakai kartu gradient berwarna (indigo, sky, teal, fuchsia).", "color": "334155"},
+        {"text": "Hover: kartu terangkat (translate-y) + shadow membesar.", "color": "334155"},
+        {"text": "Background kartu berubah warna saat hover (section Skills).", "color": "334155"},
+        {"text": "Light bloom + elemen dekoratif muncul saat hover di setiap kartu.", "color": "334155"}
       ],
+      "background": "FFFFFF",
       "shapes": [
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
-        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
       ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 4 — Responsive & Performa",
       "bullets": [
-        "Single-page application (React Router) dengan SPA fallback di Vercel.",
-        "Mobile-first memakai Tailwind responsive breakpoints.",
-        "Aset gambar minim: avatar & background berbasis CSS/SVG, tanpa bitmap besar.",
-        "Meta tags, robots.txt, dan SEO dasar pada index.html."
+        {"text": "Single-page application (React Router) dengan SPA fallback di Vercel.", "color": "334155"},
+        {"text": "Mobile-first memakai Tailwind responsive breakpoints.", "color": "334155"},
+        {"text": "Aset gambar minim: avatar & background berbasis CSS/SVG, tanpa bitmap besar.", "color": "334155"},
+        {"text": "Meta tags, robots.txt, dan SEO dasar pada index.html.", "color": "334155"}
       ],
+      "background": "FFFFFF",
       "shapes": [
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
-        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
       ]
     },
     {
       "layout": "blank",
       "title": "Potongan Kode — AnimatedAvatar",
+      "background": "0F172A",
       "shapes": [
+        {"type": "rectangle", "left": 0.7, "top": 0.7, "width": 7.3, "height": 0.9, "fill": "6366F1", "text": "Potongan Kode — AnimatedAvatar", "text_color": "FFFFFF"},
         {
           "type": "rectangle",
           "left": 0.7,
-          "top": 1.5,
+          "top": 1.75,
           "width": 7.3,
           "height": 4.9,
-          "fill": "0F172A",
+          "fill": "1E293B",
           "text": "export function AnimatedAvatar({ name }) {\n  const initials = name\n    .split(' ')\n    .map(p => p.charAt(0))\n    .slice(0, 2)\n    .join('')\n    .toUpperCase();\n\n  return (\n    <div className=\"relative\">\n      <div className=\"conic-gradient animate-spin-slow\" />\n      <div className=\"bg-slate-900 rounded-full\">\n        {initials}\n      </div>\n      <div className=\"blur-xl animate-pulse-soft\" />\n    </div>\n  );\n}",
           "text_color": "E2E8F0"
         },
         {
           "type": "rectangle",
           "left": 8.3,
-          "top": 1.5,
+          "top": 1.75,
           "width": 4.4,
           "height": 4.9,
           "fill": "EEF2FF",
@@ -92,27 +113,35 @@
       "layout": "title_content",
       "title": "Hasil PageSpeed Insights",
       "bullets": [
-        "Upaya optimasi yang dilakukan:",
-        "Build produksi Vite (minify, tree-shaking, code-splitting).",
-        "CSS dari Tailwind yang otomatis di-purge (ukuran kecil).",
-        "Avatar & background berbasis CSS/SVG — tanpa bitmap besar (CLS rendah).",
-        "SPA fallback + robots.txt agar render dan indexing bersih."
+        {"text": "Upaya optimasi yang dilakukan:", "bold": true, "color": "1E293B"},
+        {"text": "Build produksi Vite (minify, tree-shaking, code-splitting).", "color": "334155"},
+        {"text": "CSS dari Tailwind yang otomatis di-purge (ukuran kecil).", "color": "334155"},
+        {"text": "Avatar & background berbasis CSS/SVG — tanpa bitmap besar (CLS rendah).", "color": "334155"},
+        {"text": "SPA fallback + robots.txt agar render dan indexing bersih.", "color": "334155"}
       ],
+      "background": "FFFFFF",
       "shapes": [
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Skor Mobile — sisipkan screenshot", "text_color": "374151"},
-        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Skor Desktop — sisipkan screenshot", "text_color": "374151"}
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Skor Mobile — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Skor Desktop — sisipkan screenshot", "text_color": "4338CA"},
+        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
       ],
       "notes": "Skor akhir (LCP/INP/CLS) diisi setelah menjalankan PageSpeed Insights. Jangan isi angka perkiraan sebelum ada hasil asli."
     },
     {
       "layout": "blank",
       "title": "Development Module List",
+      "background": "FFFFFF",
+      "shapes": [
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rectangle", "left": 0.7, "top": 0.7, "width": 11.9, "height": 0.9, "fill": "6366F1", "text": "Development Module List", "text_color": "FFFFFF"}
+      ],
       "tables": [
         {
-          "left": 1.0,
-          "top": 1.6,
-          "width": 11.3,
-          "height": 4.6,
+          "left": 0.7,
+          "top": 1.85,
+          "width": 11.9,
+          "height": 4.8,
           "rows": [
             ["Module / Library", "Fungsi"],
             ["React 19", "Library UI untuk membangun komponen dan mengelola state"],
@@ -126,14 +155,15 @@
       ]
     },
     {
-      "layout": "title_content",
+      "layout": "title",
       "title": "Terima Kasih",
-      "bullets": [
-        "Email: davidmuhamad97@gmail.com",
-        "GitHub: github.com/davidmuhamad97-ops",
-        "LinkedIn: linkedin.com/in/muhamad-david-8674b2155",
-        "Live Demo: my-personalweb-swart.vercel.app",
-        {"text": "Terima kasih atas perhatiannya.", "bold": true}
+      "subtitle": "davidmuhamad97@gmail.com\ngithub.com/davidmuhamad97-ops\nlinkedin.com/in/muhamad-david-8674b2155\nmy-personalweb-swart.vercel.app",
+      "background": "0F172A",
+      "shapes": [
+        {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
+        {"type": "rectangle", "left": 0.85, "top": 3.6, "width": 2.4, "height": 0.08, "fill": "8B5CF6"},
+        {"type": "oval", "left": 11.2, "top": -1.2, "width": 3.2, "height": 3.2, "fill": "4F46E5"},
+        {"type": "oval", "left": 10.6, "top": 5.2, "width": 2.6, "height": 2.6, "fill": "7C3AED"}
       ]
     }
   ]
