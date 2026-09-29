@@ -5,6 +5,8 @@
       "layout": "title",
       "title": "Personal Website Portfolio",
       "subtitle": "Code Challenge 2 — Opsi A\nJCFSVL\nMuhammad David\n2026",
+      "title_style": {"font": "Calibri", "size": 40, "bold": true, "color": "FFFFFF"},
+      "subtitle_style": {"font": "Calibri", "size": 18, "color": "CBD5E1"},
       "background": "0F172A",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
@@ -16,69 +18,69 @@
     {
       "layout": "title_content",
       "title": "Fitur 1 — Hero & Animated Avatar",
+      "title_style": {"font": "Calibri", "size": 28, "bold": true, "color": "1E293B"},
       "bullets": [
-        {"text": "Avatar inisial (MD) berbingkai conic-gradient yang berputar otomatis (spin 4 detik).", "color": "334155"},
-        {"text": "Glow pulsing lembut di belakang avatar (efek bernapas, 3 detik).", "color": "334155"},
-        {"text": "Background SVG: pola dots + gradient mesh blob di 4 sudut.", "color": "334155"},
-        {"text": "Menampilkan nama, job title, lokasi, dan bio singkat dari data profil.", "color": "334155"}
+        {"text": "Avatar inisial (MD) berbingkai conic-gradient yang berputar otomatis (spin 4 detik).", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Glow pulsing lembut di belakang avatar (efek bernapas, 3 detik).", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Background SVG: pola dots + gradient mesh blob di 4 sudut.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Menampilkan nama, job title, lokasi, dan bio singkat dari data profil.", "font": "Calibri", "size": 16, "color": "334155"}
       ],
       "background": "FFFFFF",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"}
       ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 2 — Sticky Navbar & ScrollSpy",
+      "title_style": {"font": "Calibri", "size": 28, "bold": true, "color": "1E293B"},
       "bullets": [
-        {"text": "Navbar sticky dengan backdrop-blur agar tetap terlihat saat scroll.", "color": "334155"},
-        {"text": "Underline beranimasi muncul saat hover dan menetap pada menu aktif.", "color": "334155"},
-        {"text": "Hook useScrollSpy memakai IntersectionObserver untuk mendeteksi section yang sedang dilihat.", "color": "334155"},
-        {"text": "Smooth scrolling antar section (CSS scroll-behavior: smooth + scroll-margin-top).", "color": "334155"}
+        {"text": "Navbar sticky dengan backdrop-blur agar tetap terlihat saat scroll.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Underline beranimasi muncul saat hover dan menetap pada menu aktif.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Hook useScrollSpy memakai IntersectionObserver untuk mendeteksi section yang sedang dilihat.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Smooth scrolling antar section (CSS scroll-behavior: smooth + scroll-margin-top).", "font": "Calibri", "size": 16, "color": "334155"}
       ],
       "background": "FFFFFF",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"}
       ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 3 — Gradient Cards & Hover Animation",
+      "title_style": {"font": "Calibri", "size": 28, "bold": true, "color": "1E293B"},
       "bullets": [
-        {"text": "Skills, Experience, dan Testimonials memakai kartu gradient berwarna (indigo, sky, teal, fuchsia).", "color": "334155"},
-        {"text": "Hover: kartu terangkat (translate-y) + shadow membesar.", "color": "334155"},
-        {"text": "Background kartu berubah warna saat hover (section Skills).", "color": "334155"},
-        {"text": "Light bloom + elemen dekoratif muncul saat hover di setiap kartu.", "color": "334155"}
+        {"text": "Skills, Experience, dan Testimonials memakai kartu gradient berwarna (indigo, sky, teal, fuchsia).", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Hover: kartu terangkat (translate-y) + shadow membesar.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Background kartu berubah warna saat hover (section Skills).", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Light bloom + elemen dekoratif muncul saat hover di setiap kartu.", "font": "Calibri", "size": 16, "color": "334155"}
       ],
       "background": "FFFFFF",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"}
       ]
     },
     {
       "layout": "title_content",
       "title": "Fitur 4 — Responsive & Performa",
+      "title_style": {"font": "Calibri", "size": 28, "bold": true, "color": "1E293B"},
       "bullets": [
-        {"text": "Single-page application (React Router) dengan SPA fallback di Vercel.", "color": "334155"},
-        {"text": "Mobile-first memakai Tailwind responsive breakpoints.", "color": "334155"},
-        {"text": "Aset gambar minim: avatar & background berbasis CSS/SVG, tanpa bitmap besar.", "color": "334155"},
-        {"text": "Meta tags, robots.txt, dan SEO dasar pada index.html.", "color": "334155"}
+        {"text": "Single-page application (React Router) dengan SPA fallback di Vercel.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Mobile-first memakai Tailwind responsive breakpoints.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Aset gambar minim: avatar & background berbasis CSS/SVG, tanpa bitmap besar.", "font": "Calibri", "size": 16, "color": "334155"},
+        {"text": "Meta tags, robots.txt, dan SEO dasar pada index.html.", "font": "Calibri", "size": 16, "color": "334155"}
       ],
       "background": "FFFFFF",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Desktop View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 6.85, "top": 5.7, "width": 5.7, "height": 1.25, "fill": "EEF2FF", "text": "Mobile View — sisipkan screenshot", "text_color": "4338CA", "text_size": 14, "text_bold": true, "text_font": "Calibri"}
       ]
     },
     {
@@ -86,7 +88,7 @@
       "title": "Potongan Kode — AnimatedAvatar",
       "background": "0F172A",
       "shapes": [
-        {"type": "rectangle", "left": 0.7, "top": 0.7, "width": 7.3, "height": 0.9, "fill": "6366F1", "text": "Potongan Kode — AnimatedAvatar", "text_color": "FFFFFF"},
+        {"type": "rectangle", "left": 0.7, "top": 0.7, "width": 7.3, "height": 0.9, "fill": "6366F1", "text": "Potongan Kode — AnimatedAvatar", "text_color": "FFFFFF", "text_size": 20, "text_bold": true, "text_font": "Calibri"},
         {
           "type": "rectangle",
           "left": 0.7,
@@ -95,7 +97,9 @@
           "height": 4.9,
           "fill": "1E293B",
           "text": "export function AnimatedAvatar({ name }) {\n  const initials = name\n    .split(' ')\n    .map(p => p.charAt(0))\n    .slice(0, 2)\n    .join('')\n    .toUpperCase();\n\n  return (\n    <div className=\"relative\">\n      <div className=\"conic-gradient animate-spin-slow\" />\n      <div className=\"bg-slate-900 rounded-full\">\n        {initials}\n      </div>\n      <div className=\"blur-xl animate-pulse-soft\" />\n    </div>\n  );\n}",
-          "text_color": "E2E8F0"
+          "text_color": "E2E8F0",
+          "text_size": 13,
+          "text_font": "Consolas"
         },
         {
           "type": "rectangle",
@@ -105,26 +109,24 @@
           "height": 4.9,
           "fill": "EEF2FF",
           "text": "Anotasi:\n\n1. Inisial dihitung dari nama,\n   lalu dirender di lingkaran tengah.\n\n2. Ring conic-gradient berputar\n   via keyframe CSS spin-slow.\n\n3. Glow blur di belakang memakai\n   animate-pulse-soft.\n\n4. Semua animasi murni CSS,\n   tanpa library eksternal.",
-          "text_color": "1E1B4B"
+          "text_color": "1E1B4B",
+          "text_size": 13,
+          "text_font": "Calibri"
         }
       ]
     },
     {
-      "layout": "title_content",
+      "layout": "blank",
       "title": "Hasil PageSpeed Insights",
-      "bullets": [
-        {"text": "Upaya optimasi yang dilakukan:", "bold": true, "color": "1E293B"},
-        {"text": "Build produksi Vite (minify, tree-shaking, code-splitting).", "color": "334155"},
-        {"text": "CSS dari Tailwind yang otomatis di-purge (ukuran kecil).", "color": "334155"},
-        {"text": "Avatar & background berbasis CSS/SVG — tanpa bitmap besar (CLS rendah).", "color": "334155"},
-        {"text": "SPA fallback + robots.txt agar render dan indexing bersih.", "color": "334155"}
-      ],
       "background": "FFFFFF",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
-        {"type": "rounded_rectangle", "left": 0.8, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Skor Mobile — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rounded_rectangle", "left": 6.85, "top": 5.95, "width": 5.7, "height": 1.0, "fill": "EEF2FF", "text": "Skor Desktop — sisipkan screenshot", "text_color": "4338CA"},
-        {"type": "rectangle", "left": 0.8, "top": 7.05, "width": 11.7, "height": 0.01, "fill": "E2E8F0"}
+        {"type": "rectangle", "left": 0.7, "top": 0.5, "width": 11.9, "height": 0.8, "fill": "6366F1", "text": "Hasil PageSpeed Insights", "text_color": "FFFFFF", "text_size": 22, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 0.7, "top": 1.55, "width": 5.4, "height": 0.5, "fill": "312E81", "text": "Mobile", "text_color": "FFFFFF", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 0.7, "top": 2.1, "width": 5.4, "height": 4.0, "fill": "EEF2FF", "text": "Screenshot skor Mobile\nsisipkan di sini", "text_color": "4338CA", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 6.4, "top": 1.55, "width": 6.2, "height": 0.5, "fill": "312E81", "text": "Desktop", "text_color": "FFFFFF", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 6.4, "top": 2.1, "width": 6.2, "height": 4.0, "fill": "EEF2FF", "text": "Screenshot skor Desktop\nsisipkan di sini", "text_color": "4338CA", "text_size": 16, "text_bold": true, "text_font": "Calibri"},
+        {"type": "rounded_rectangle", "left": 0.7, "top": 6.35, "width": 11.9, "height": 0.85, "fill": "F1F5F9", "text": "Optimasi: build Vite (minify + tree-shaking) · CSS Tailwind ter-purge · avatar & background CSS/SVG tanpa bitmap besar (CLS rendah) · SPA fallback + robots.txt", "text_color": "1E293B", "text_size": 12, "text_font": "Calibri"}
       ],
       "notes": "Skor akhir (LCP/INP/CLS) diisi setelah menjalankan PageSpeed Insights. Jangan isi angka perkiraan sebelum ada hasil asli."
     },
@@ -134,7 +136,7 @@
       "background": "FFFFFF",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
-        {"type": "rectangle", "left": 0.7, "top": 0.7, "width": 11.9, "height": 0.9, "fill": "6366F1", "text": "Development Module List", "text_color": "FFFFFF"}
+        {"type": "rectangle", "left": 0.7, "top": 0.7, "width": 11.9, "height": 0.9, "fill": "6366F1", "text": "Development Module List", "text_color": "FFFFFF", "text_size": 22, "text_bold": true, "text_font": "Calibri"}
       ],
       "tables": [
         {
@@ -158,6 +160,8 @@
       "layout": "title",
       "title": "Terima Kasih",
       "subtitle": "davidmuhamad97@gmail.com\ngithub.com/davidmuhamad97-ops\nlinkedin.com/in/muhamad-david-8674b2155\nmy-personalweb-swart.vercel.app",
+      "title_style": {"font": "Calibri", "size": 40, "bold": true, "color": "FFFFFF"},
+      "subtitle_style": {"font": "Calibri", "size": 18, "color": "CBD5E1"},
       "background": "0F172A",
       "shapes": [
         {"type": "rectangle", "left": 0, "top": 0, "width": 0.28, "height": 7.5, "fill": "6366F1"},
