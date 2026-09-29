@@ -1,0 +1,140 @@
+{
+  "slide_size": "16:9",
+  "slides": [
+    {
+      "layout": "title",
+      "title": "Personal Website Portfolio",
+      "subtitle": "Code Challenge 2 — Opsi A\nJCFSVL\nMuhammad David\n2026"
+    },
+    {
+      "layout": "title_content",
+      "title": "Fitur 1 — Hero & Animated Avatar",
+      "bullets": [
+        "Avatar inisial (MD) berbingkai conic-gradient yang berputar otomatis (spin 4 detik).",
+        "Glow pulsing lembut di belakang avatar (efek bernapas, 3 detik).",
+        "Background SVG: pola dots + gradient mesh blob di 4 sudut.",
+        "Menampilkan nama, job title, lokasi, dan bio singkat dari data profil."
+      ],
+      "shapes": [
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
+        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Fitur 2 — Sticky Navbar & ScrollSpy",
+      "bullets": [
+        "Navbar sticky dengan backdrop-blur agar tetap terlihat saat scroll.",
+        "Underline beranimasi muncul saat hover dan menetap pada menu aktif.",
+        "Hook useScrollSpy memakai IntersectionObserver untuk mendeteksi section yang sedang dilihat.",
+        "Smooth scrolling antar section (CSS scroll-behavior: smooth + scroll-margin-top)."
+      ],
+      "shapes": [
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
+        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Fitur 3 — Gradient Cards & Hover Animation",
+      "bullets": [
+        "Skills, Experience, dan Testimonials memakai kartu gradient berwarna (indigo, sky, teal, fuchsia).",
+        "Hover: kartu terangkat (translate-y) + shadow membesar.",
+        "Background kartu berubah warna saat hover (section Skills).",
+        "Light bloom + elemen dekoratif muncul saat hover di setiap kartu."
+      ],
+      "shapes": [
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
+        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Fitur 4 — Responsive & Performa",
+      "bullets": [
+        "Single-page application (React Router) dengan SPA fallback di Vercel.",
+        "Mobile-first memakai Tailwind responsive breakpoints.",
+        "Aset gambar minim: avatar & background berbasis CSS/SVG, tanpa bitmap besar.",
+        "Meta tags, robots.txt, dan SEO dasar pada index.html."
+      ],
+      "shapes": [
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Desktop View — sisipkan screenshot", "text_color": "374151"},
+        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Mobile View — sisipkan screenshot", "text_color": "374151"}
+      ]
+    },
+    {
+      "layout": "blank",
+      "title": "Potongan Kode — AnimatedAvatar",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "left": 0.7,
+          "top": 1.5,
+          "width": 7.3,
+          "height": 4.9,
+          "fill": "0F172A",
+          "text": "export function AnimatedAvatar({ name }) {\n  const initials = name\n    .split(' ')\n    .map(p => p.charAt(0))\n    .slice(0, 2)\n    .join('')\n    .toUpperCase();\n\n  return (\n    <div className=\"relative\">\n      <div className=\"conic-gradient animate-spin-slow\" />\n      <div className=\"bg-slate-900 rounded-full\">\n        {initials}\n      </div>\n      <div className=\"blur-xl animate-pulse-soft\" />\n    </div>\n  );\n}",
+          "text_color": "E2E8F0"
+        },
+        {
+          "type": "rectangle",
+          "left": 8.3,
+          "top": 1.5,
+          "width": 4.4,
+          "height": 4.9,
+          "fill": "EEF2FF",
+          "text": "Anotasi:\n\n1. Inisial dihitung dari nama,\n   lalu dirender di lingkaran tengah.\n\n2. Ring conic-gradient berputar\n   via keyframe CSS spin-slow.\n\n3. Glow blur di belakang memakai\n   animate-pulse-soft.\n\n4. Semua animasi murni CSS,\n   tanpa library eksternal.",
+          "text_color": "1E1B4B"
+        }
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Hasil PageSpeed Insights",
+      "bullets": [
+        "Upaya optimasi yang dilakukan:",
+        "Build produksi Vite (minify, tree-shaking, code-splitting).",
+        "CSS dari Tailwind yang otomatis di-purge (ukuran kecil).",
+        "Avatar & background berbasis CSS/SVG — tanpa bitmap besar (CLS rendah).",
+        "SPA fallback + robots.txt agar render dan indexing bersih."
+      ],
+      "shapes": [
+        {"type": "rounded_rectangle", "left": 0.8, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Skor Mobile — sisipkan screenshot", "text_color": "374151"},
+        {"type": "rounded_rectangle", "left": 6.9, "top": 5.9, "width": 5.7, "height": 1.1, "fill": "E5E7EB", "text": "Skor Desktop — sisipkan screenshot", "text_color": "374151"}
+      ],
+      "notes": "Skor akhir (LCP/INP/CLS) diisi setelah menjalankan PageSpeed Insights. Jangan isi angka perkiraan sebelum ada hasil asli."
+    },
+    {
+      "layout": "blank",
+      "title": "Development Module List",
+      "tables": [
+        {
+          "left": 1.0,
+          "top": 1.6,
+          "width": 11.3,
+          "height": 4.6,
+          "rows": [
+            ["Module / Library", "Fungsi"],
+            ["React 19", "Library UI untuk membangun komponen dan mengelola state"],
+            ["Vite 8", "Build tool & dev server dengan Hot Module Replacement"],
+            ["TypeScript", "Type safety, autocomplete, dan deteksi error saat kompilasi"],
+            ["Tailwind CSS 4", "Styling utility-first untuk tampilan responsif"],
+            ["React Router 7", "Routing SPA dan navigasi antar halaman/section"],
+            ["Vercel", "Hosting publik + auto-deploy dari push ke GitHub"]
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "title_content",
+      "title": "Terima Kasih",
+      "bullets": [
+        "Email: davidmuhamad97@gmail.com",
+        "GitHub: github.com/davidmuhamad97-ops",
+        "LinkedIn: linkedin.com/in/muhamad-david-8674b2155",
+        "Live Demo: my-personalweb-swart.vercel.app",
+        {"text": "Terima kasih atas perhatiannya.", "bold": true}
+      ]
+    }
+  ]
+}
